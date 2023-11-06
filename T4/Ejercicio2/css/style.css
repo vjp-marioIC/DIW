@@ -1,0 +1,46 @@
+/*Active*/
+#active:active {
+    color: red;
+}
+
+/*######################################################*/
+
+/*Visited*/
+#visited:visited {
+    color: gray;
+}
+
+/*######################################################*/
+
+/*Link*/
+#link:link {
+    color: blue;
+}
+
+/*######################################################*/
+
+/*Focus*/
+#focus:focus {
+    background-color: red;
+}
+
+/*######################################################*/
+
+/*Hover*/
+#hover:hover {
+    color: yellow;
+}
+
+/*######################################################*/
+
+/*First child*/
+#parrafos p:first-child {
+    font-weight: bold;
+}
+
+/*######################################################*/
+
+/*Nth-child*/
+#parrafos p:nth-child(3) {
+    background-color: yellow;
+}

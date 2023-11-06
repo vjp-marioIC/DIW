@@ -1,0 +1,76 @@
+#titulo {
+    color: #008484;
+}
+
+span.destacado {
+    color: #ffb548;
+}
+
+#subtitulo {
+    color: #0000ff;
+}
+
+p a {
+    color: #ff0d0b;
+}
+
+p a em {
+    color: #0000ff;
+}
+
+span.especial {
+    color: #931e98;
+}
+
+table>caption {
+    color: #4d0cff;
+}
+
+thead  {
+    border: 1px solid black;
+}
+
+#adicional p {
+    color: #948400;
+}
+
+#especial {
+    color: #ff05ff;
+}
+
+#adicional p a {
+    color: #098b18;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table th.especial {
+    color: #ffb438;
+}
+
+table>tbody>tr>th {
+    color: #ff1015;
+}
+
+table>tfoot>tr>th {
+    color: #ff1015;
+}
+
+table>tbody>tr>td {
+    color: #00844a;
+}
+
+table>tbody>tr>td>em {
+    font-style: italic;
+}
+
+table>tbody>tr>td>strong {
+    color: #ffa51c;
+}

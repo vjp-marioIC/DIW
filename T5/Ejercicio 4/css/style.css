@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.pricipal {
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);s
+}
+
+h1 {
+    margin: 0;
+}
+
+/*###########################################################################################*/
+
+/*MOVIL*/
+#texto {
+    margin: 20px;
+}
+
+.imagen img {
+    width: 100%;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/*###########################################################################################*/
+
+/*TABLET*/
+@media (min-width: 768px) {
+    #texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .biografia, .aficiones, .musica, .pelicula {
+       text-align: center;
+        width: 100%;
+    }
+}
+
+
+/*###########################################################################################*/
+
+/*ORDENADOR*/
+@media (min-width: 1024px) {
+    .imagen {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .imagen img {
+        width: 30%;
+    }
+
+    #texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .biografia, .aficiones, .musica, .pelicula {
+       text-align: center;
+        width: 100%;
+    }
+}

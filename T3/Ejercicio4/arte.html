@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte</title>
+</head>
+
+<body>
+    <div id="principal" style="border: 1px solid black; width: 850px; height: 350px; margin: auto;">
+        <h1 style="text-align: center;">CATÁLOGO DE ARTE</h1>
+
+        <p><strong>Introduce los términos de búsqueda:</strong></p>
+
+        <form action="Arte.html" method="post">
+            <div id="apartados" style="width: 750px; height: 110px; margin: auto;">
+                <!--OBRA-->
+                <div style="width: 250px; float: left;">
+                    <p style="text-align: center;"><strong>OBRA</strong></p>
+
+                    <label for="titulo">Titulo</label>
+                    <input type="text" name="titulo" id="titulo" style="box-shadow: inset 2px 2px gray; border: none; margin-bottom: 4px;">
+
+                    <br>
+
+                    <label for="autor">Autor</label>
+                    <input type="text" name="autor" id="autor" style="box-shadow: inset 2px 2px gray; border: none;">
+                </div>
+
+                <!--TIPO-->
+                <div style="width: 150px; float: left; display: block; float: left;">
+                    <p style="text-align: center;"><strong>TIPO</strong></p>
+
+                    <input type="checkbox" name="escritura"  style="box-shadow: inset 2px 2px gray; border: none;>
+                    <label for="escritura">Escritura</label>
+
+                    <br>
+
+                    <input type="checkbox" name="arquitectura"  style="box-shadow: inset 2px 2px gray; border: none;>
+                    <label for="arquitectura">Arquitectura</label>
+
+                    <br>
+
+                    <input type="checkbox" name="pintura"  style="box-shadow: inset 2px 2px gray; border: none;>
+                    <label for="pintura">Pintura</label>
+                </div>
+
+                <!--DISPONIBILIDAD-->
+                <div style="width: 250px; float: left; display: block; float: left;">
+                    <p style="text-align: center;"><strong>DISPONIBILIDAD</strong></p>
+
+                    <input type="radio" name="museoAccesoPublico">
+                    <label for="museoAccesoPublico">Museo / Acceso público</label>
+
+                    <br>
+
+                    <input type="radio" name="ColeccionPrivada">
+                    <label for="ColeccionPrivada">Colección privada</label>>
+                </div>
+
+                <!--ESTILO-->
+                <div style="width: 100px; float: left; display: block; float: left;">
+                    <p style="text-align: right;"><strong>ESTILO</strong></p>
+
+                    <select name="estilo" style="box-shadow: inset 2px 2px gray; border: none;">
+                        <option value="Clasico">Clásico</option>
+                        <option value="Abstracto">Abstracto</option>
+                        <option value="Subrrealista">Subrrealista</option>
+                        <option value="Otros">Otros</option>
+                    </select>
+                </div>
+            </div>
+
+            <div style="width: 550px; margin-top: 10px;">
+                <p style="display: block; float: left;"><strong>Hagamos saber sus sugerencias:</strong></p>
+                <textarea rows="4" cols="40" placeholder="Me gusta indicar que ..."  style="display: block; float: left; margin-top: 15px; overflow-y: scroll; resize: none;"></textarea>
+        
+                <input type="submit" name="boton" value="Buscar" style="margin-left: 450px; margin-top: 10px;">
+            </div>
+            </form>
+            </div>
+    </div>
+</body>
+
+</html>

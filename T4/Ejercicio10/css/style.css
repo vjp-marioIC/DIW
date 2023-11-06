@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url(../Patrones/bg_verde.png);
+    width: 100%;
+    height: 180px;
+    padding: 20px;
+    margin: 0;
+}
+
+.centrar {
+    width: 60%;
+    margin: auto;
+    color: #3a3a3a;
+    font-family: 'Oswald',sans-serif;
+}
+
+.centrar i {
+    float: right;
+    font-size: 40px;
+    margin: 5px;
+    color: black;
+}
+
+#menu {
+    margin-top: 20px;
+    border-top: 3px dotted #536445;
+    border-bottom: 3px dotted #536445;
+    padding: 20px;
+    width: 95%;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+
+#menu a.iniciarSesion {
+    float: right;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+main {
+    background-color: #e0e2df;
+    height: 100%;
+    padding: 50px;
+}
+
+#formulario {
+    background-color: white;
+    
+    padding: 20px;
+    border-radius: 2%;
+}
+
+#formulario a{
+    text-decoration: none;
+    color: black;
+}
+
+#formulario>h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+#formulario>p {
+    margin-top: 0;
+}
+
+#formulario label {
+    font-weight: bold;
+}
+
+.datos {
+    width: 50%;
+}
+
+#formulario form p {
+    margin-top: 5px;
+}
+
+.boton {
+    padding: 8px 15px 8px 15px;
+    border-radius: 10%;
+    border: none;
+    background-color: #afafaf;
+    color: #555;
+}
+
+footer {
+    background-image: url(../Patrones/bg_gris.png);
+    width: 100%;
+    height: 180px;
+    bottom: 0;
+}
+
+footer table {
+    color: white;
+}
+
+table.centrar img:hover {
+    transform: scale(1.1);
+}
+
+table.centrar img {
+    margin: 10px;
+}
+
+footer table.centrar tr td a {
+    color: white;
+    text-decoration: none;
+}
+
+#enlacesTabla {
+    text-align: center;
+    border-top: 3px dotted #536445;
+}
+
+#enlacesTabla>td {
+    border-top: 3px dotted #536445;
+}

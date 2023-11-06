@@ -1,0 +1,80 @@
+/*BODY*/
+body {
+    background-image: url(../img/Fondo.jpg);
+}
+
+/*#########################################################################################*/
+
+/*HEADER*/
+header {
+    text-align: center;
+}
+
+/*#########################################################################################*/
+
+/*FORMULARIO*/
+#formulario {
+    width: 350px;
+    height: 200px;
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#formulario>h3 {
+    border-bottom: 1px solid #818b97;
+    width: 340px;
+ }
+
+#formulario label {
+   color: #818b97;
+}
+
+#formulario .datos {
+   border: 1px solid #dddddd;
+   width: 200px;
+   height: 20px;
+}
+
+
+
+#formulario .boton {
+    padding: 3px;
+}
+
+/*#########################################################################################*/
+
+/*DIV IDIOMAS*/
+#idiomas {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#idiomas a {
+    margin-right: 20px;
+    color: #0000ee;
+}
+
+/*#########################################################################################*/
+
+/*MAIN*/
+main>p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main>p>a {
+    color: #0000ee;
+}
+
+/*#########################################################################################*/
+
+/*FOOTER*/
+footer>p {
+    text-align: center;
+    color: #818b97;
+    margin-top: 50px;
+}

@@ -1,0 +1,155 @@
+/*PARA PANTALLAS DE UN ANCHO MÁXIMO DE 320PX*/
+@media screen and (max-width: 320px) {
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    header {
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 60vh;
+        padding: 40px;
+    }
+
+    /*LOGO*/
+    .logo {
+        text-align: center;
+    }
+
+    /*BARRA BUSQUEDA*/
+    .barraBusqueda {
+        display: flex;
+        width: 70%;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .barraBusqueda input {
+        padding: 15px;
+        border: none;
+    }
+
+    .barraBusqueda i {
+        padding: 15px;
+        background-color: white;
+    }
+
+    /*PESTAÑAS*/
+    .pestañas {
+        margin-top: 50px;
+        margin-right: 5%;
+        width: max-content;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        float: right;
+    }
+
+    /* CARRITO */
+    .carrito {
+        width: max-content;
+        text-align: center;
+    }
+
+    .carrito a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    .carrito p {
+        margin: 0;
+    }
+
+    /* CUENTA */
+    .cuenta {
+        width: max-content;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .cuenta a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    .cuenta p {
+        margin: 0;
+    }
+
+    /*MENÚ DESPLEGABLE*/
+    .menuDesplegable {
+        position: relative;
+        display: inline-block;
+        margin-left: 10%;
+    }
+
+    .menuDesplegable p {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .boton-desplegable {
+        margin-top: 50px;
+        background-color: gray;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    .boton-desplegable i {
+        margin-right: 5px;
+        background-color: white;
+    }
+
+    /*ENLACES*/
+    .enlaces {
+        display: none;
+        position: absolute;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: gray;
+        color: #fff;
+        text-align: left;
+    }
+
+    .enlaces li {
+        padding: 10px 50px;
+    }
+
+    .enlaces li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .menuDesplegable:hover .enlaces {
+        display: block;
+    }
+
+    /*IMAGENES*/
+    main img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .segundaFila img {
+        width: 70%;
+    }
+
+    .segundaFila img+img {
+        width: 30%;
+    }
+}
