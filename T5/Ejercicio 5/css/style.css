@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+header {
+    background-image: url(../Patrones/bg_verde.png);
+    padding: 20px;
+}
+
+.centrar {
+    max-width: 60%;
+    margin: 0 auto;
+    color: #3a3a3a;
+    font-family: 'Oswald', sans-serif;
+}
+
+.centrar i {
+    font-size: 2em;
+    margin: 5px;
+    color: black;
+    float: right;
+}
+
+#menu {
+    border-top: 3px dotted #536445;
+    border-bottom: 3px dotted #536445;
+    padding: 20px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#menu a.iniciarSesion {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+main {
+    background-color: #e0e2df;
+    padding: 50px;
+}
+
+#formulario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 2%;
+}
+
+#formulario a {
+    text-decoration: none;
+    color: black;
+}
+
+#formulario>h1 {
+    margin: 0 0 10px;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+#formulario>p {
+    margin: 0;
+}
+
+#formulario label {
+    font-weight: bold;
+}
+
+.datos {
+    width: 50%;
+}
+
+#formulario form p {
+    margin: 5px 0;
+}
+
+.boton {
+    padding: 8px 15px;
+    border-radius: 10%;
+    border: none;
+    background-color: #afafaf;
+    color: #555;
+}
+
+footer {
+    background-image: url(../Patrones/bg_gris.png);
+    padding: 20px 0;
+}
+
+table.centrar img:hover {
+    transform: scale(1.1);
+}
+
+table.centrar img {
+    margin: 10px;
+}
+
+footer table.centrar tr td a {
+    color: white;
+    text-decoration: none;
+}
+
+#enlacesTabla {
+    text-align: center;
+    border-top: 3px dotted #536445;
+}
+
+#enlacesTabla>td {
+    border-top: 3px dotted #536445;
+}
+
+/*########################################################################################*/
+
+@media screen and (max-width: 320px) {
+
+    #formulario {
+        width: 100%;
+    }
+
+    header .centrar a img {
+        width: 100%;
+    }
+
+    header .centrar a {
+        display: block;
+        margin: 5px;
+    }
+
+    header .centrar a i {
+        display: none;
+    }
+
+    #menu {
+        width: 100%;
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    main .centrar {
+       margin-left: 25px;
+    }
+
+    .centrar {
+        max-width: 70%;
+    }
+
+    footer {
+        height: 100vh;
+    }
+
+    footer .centrar tr td {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    footer .centrar {
+        text-align: center;
+    }
+    
+    #enlacesTabla a {
+       display: block;
+    }
+}
