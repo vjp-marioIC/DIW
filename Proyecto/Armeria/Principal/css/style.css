@@ -293,10 +293,10 @@
         display: flex;
         align-items: flex-start;    
         background-color: #bbdefb;
-        padding: 15px;
+        padding: 20px;
         background-color: black;
         color: white;
-        width: 80%;
+        width: 78%;
         margin: auto;
     }
     
@@ -305,21 +305,24 @@
         text-align: center;
         width: max-content;
         float: left;
+        margin-left: 20px;
     }
     
     .logo h1 {
         float: right;
-        margin: 0;
+        margin-top: 50px;
     }
     
     /*BARRA BUSQUEDA*/
     .barraBusqueda {
         display: flex;
-        width: 70%;
-        text-align: center;
+        width: 50%;
+        margin-top: 1%;
+        margin-left: 5%;
     }
     
     .barraBusqueda input {
+        width: 100%;
         padding: 15px;
         border: none;
     }
@@ -331,15 +334,13 @@
     
     /*PESTAÑAS*/
     .pestañas {
-        margin-top: 50px;
-        margin-right: 5%;
+        margin: 5% 5% 0 5%;
         width: max-content;
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
         flex-direction: row;
         flex-wrap: nowrap;
-        float: right;
     }
     
     /* CARRITO */
@@ -427,7 +428,36 @@
     }
     
     main img {
-        margin-top: 50px;
+        margin-top: 30px;
         width: 100%;
+        padding: 0;
+    }
+
+    .segundaFila img {
+        width: 60%; 
+        float: left;
+        margin-right: 132px;
+    }
+
+    .segundaFila img + img{
+        width: auto;
+        margin-right: 0;
+        height: max-heigth;
+    }
+
+
+
+    .terceraFila img {
+        width: 31%;
+        height: 30%;
+        float: left;
+        margin-right: 46px;
+    }
+
+    .terceraFila img + img + img{
+        width: 31%;
+        height: 30%;
+        float: left;
+        margin-right: 0;
     }
 }
