@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 2em;
 }
 
 header {
@@ -113,7 +113,12 @@ footer table.centrar tr td a {
 
 /*########################################################################################*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
+
+    body {
+        margin: 0;
+        font-size: 1em;
+    }
 
     #formulario {
         width: 100%;
@@ -142,7 +147,7 @@ footer table.centrar tr td a {
     }
 
     main .centrar {
-       margin-left: 25px;
+      margin-left: 30px;
     }
 
     .centrar {
@@ -150,12 +155,16 @@ footer table.centrar tr td a {
     }
 
     footer {
-        height: 100vh;
+        height: max-content;
     }
 
     footer .centrar tr td {
         display: block;
         margin-bottom: 15px;
+    }
+
+    footer .centrar tr td img{
+        display: none;
     }
 
     footer .centrar {
