@@ -60,6 +60,7 @@
     .barraBusqueda input {
         padding: 3%;
         width: 82%;
+        border: none;
     }
 
     .barraBusqueda i {
