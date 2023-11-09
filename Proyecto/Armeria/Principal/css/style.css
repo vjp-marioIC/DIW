@@ -1,345 +1,121 @@
 /*PARA PANTALLAS DE UN ANCHO MÁXIMO DE 425PX*/
 /*
 @media screen and (max-width: 425px) {
-    body {
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-
-    header {
-        background-color: black;
-        color: white;
-        width: 100%;
-        height: 60vh;
-        padding: 40px;
-    }
-
-    /*LOGO*/
-    .logo {
-        text-align: center;
-    }
-
-    /*BARRA BUSQUEDA*/
-    .barraBusqueda {
-        display: flex;
-        width: 70%;
-        text-align: center;
-    }
-
-    .barraBusqueda input {
-        padding: 15px;
-        border: none;
-    }
-
-    .barraBusqueda i {
-        padding: 15px;
-        background-color: white;
-    }
-
-    /*PESTAÑAS*/
-    .pestañas {
-        margin-top: 50px;
-        margin-right: 5%;
-        width: max-content;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        float: right;
-    }
-
-    /* CARRITO */
-    .carrito {
-        width: max-content;
-        text-align: center;
-    }
-
-    .carrito a {
-        color: white;
-        text-decoration: none;
-        margin-right: 20px;
-    }
-
-    .carrito p {
-        margin: 0;
-    }
-
-    /* CUENTA */
-    .cuenta {
-        width: max-content;
-        text-align: center;
-        margin-right: 20px;
-    }
-
-    .cuenta a {
-        color: white;
-        text-decoration: none;
-        margin-right: 20px;
-    }
-
-    .cuenta p {
-        margin: 0;
-    }
-
-    /*MENÚ DESPLEGABLE*/
-    .menuDesplegable {
-        position: relative;
-        display: inline-block;
-    }
-
-    .menuDesplegable p {
-        margin: 0;
-        margin-top: 10px;
-    }
-
-    .boton-desplegable {
-        margin-top: 50px;
-        background-color: gray;
-        color: #fff;
-        border: none;
-        padding: 10px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-    }
-
-    .boton-desplegable i {
-        margin-right: 5px;
-        background-color: white;
-    }
-
-    /*ENLACES*/
-    .enlaces {
-        display: none;
-        position: absolute;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        background-color: gray;
-        color: #fff;
-        text-align: left;
-    }
-
-    .enlaces li {
-        padding: 10px 50px;
-    }
-
-    .enlaces li a {
-        color: white;
-        text-decoration: none;
-    }
-
-    .menuDesplegable:hover .enlaces {
-        display: block;
-    }
-
-    /*IMAGENES*/
-    main img, .segundaFila img {
-        width: 100%;
-        display: block;
-        margin-bottom: 10px;
-    }
-}*/
 
 /*PARA PANTALLAS DE UN ANCHO MÁXIMO DE 425PX*/
+/*
 @media screen and (max-width: 768px) {
-    body {
-        margin: 0;
-    }
-
-    header {
-        background-color: black;
-        color: white;
-        width: 100%;
-        height: 20%;
-        padding: 40px;
-    }
-
-    /*LOGO*/
-    .logo {
-        text-align: center;
-    }
-
-    /*BARRA BUSQUEDA*/
-    .barraBusqueda {
-        display: flex;
-        width: 80%;
-        text-align: center;
-    }
-
-    .barraBusqueda input {
-        padding: 15px;
-        border: none;
-    }
-
-    .barraBusqueda i {
-        padding: 15px;
-        background-color: white;
-    }
-
-    /*PESTAÑAS*/
-    .pestañas {
-        margin-top: 50px;
-        margin-right: 5%;
-        width: max-content;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        float: right;
-    }
-
-    /* CARRITO */
-    .carrito {
-        width: max-content;
-        text-align: center;
-    }
-
-    .carrito a {
-        color: white;
-        text-decoration: none;
-        margin-right: 20px;
-    }
-
-    .carrito p {
-        margin: 0;
-    }
-
-    /* CUENTA */
-    .cuenta {
-        width: max-content;
-        text-align: center;
-        margin-right: 20px;
-    }
-
-    .cuenta a {
-        color: white;
-        text-decoration: none;
-        margin-right: 20px;
-    }
-
-    .cuenta p {
-        margin: 0;
-    }
-
-    /*MENÚ DESPLEGABLE*/
-    .menuDesplegable {
-        position: relative;
-        display: inline-block;
-    }
-
-    .menuDesplegable p {
-        margin: 0;
-        margin-top: 10px;
-    }
-
-    .boton-desplegable {
-        margin-top: 50px;
-        background-color: gray;
-        color: #fff;
-        border: none;
-        padding: 10px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-    }
-
-    .boton-desplegable i {
-        margin-right: 5px;
-        background-color: white;
-    }
-
-    /*ENLACES*/
-    .enlaces {
-        display: none;
-        position: absolute;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        background-color: gray;
-        color: #fff;
-        text-align: left;
-    }
-
-    .enlaces li {
-        padding: 10px 50px;
-    }
-
-    .enlaces li a {
-        color: white;
-        text-decoration: none;
-    }
-
-    .menuDesplegable:hover .enlaces {
-        display: block;
-    }
-
-    /*IMAGENES*/
-    main img, .segundaFila img {
-        width: 100%;
-        display: block;
-        margin-bottom: 5px;
-    }
-}
+   */
 
 /*PARA PANTALLAS DE UN ANCHO MÁXIMO DE 2560PX*/
 @media screen and (max-width: 2560px) {
     body {
-        margin: 20px;
+        margin: 0;
     }
 
     header {
-        display: flex;
-        align-items: flex-start;    
-        background-color: #bbdefb;
-        padding: 20px;
+        width: 80%;
+        height: 20vh;
+        padding: 1%;
         background-color: black;
-        color: white;
-        width: 78%;
         margin: auto;
     }
-    
+
+    /*###################################################################*/
     /*LOGO*/
-    .logo {
-        width: 35%;
-        margin-left: 20px;
+    header>a>img {
+        float: left;
+        width: 10%;
+        height: 100%;
     }
 
-    .logo img {
+    .logo {
+        width: 20%;
+        height: 20vh;
+
         float: left;
     }
-    
+
     .logo h1 {
-        float: right;
-        margin-top: 50px;
-        width: max-width;
-    }
-    
-    /*BARRA BUSQUEDA*/
-    .barraBusqueda {
-        display: flex;
-        width: 50%;
-        margin-top: 1%;
-        margin-left: 5%;
-    }
-    
-    .barraBusqueda input {
+        color: white;
+        margin: 0;
         width: 100%;
-        padding: 15px;
-        border: none;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        position: relative;
     }
-    
-    .barraBusqueda i {
-        padding: 15px;
+
+    /*###################################################################*/
+    /*BARRA DE BÚSQUEDA*/
+    .barraBusqueda {
+        width: 40%;
+        height: 5.5vh;
+        display: inline-block;
+        margin-top: 2%;
+        margin-left: 2%;
         background-color: white;
     }
-    
+
+    .barraBusqueda input {
+        padding: 3%;
+        width: 82%;
+    }
+
+    .barraBusqueda i {
+        padding: 3%;
+        display: inline-block;
+    }
+
+    /*###################################################################*/
+    /*MENÚ*/
+    .menu {
+        width: 47%;
+        height: 5vh;
+        display: inline-block;
+        border-top: 3px solid white;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+
+    .menu button {
+        display: none;
+    }
+
+    .enlaces {
+        list-style-type: none;
+        padding: 0;
+     }
+     .enlaces a {
+        color: white;
+        text-decoration: none;
+        margin-right: 4%;
+        float: left;
+     }
+     
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
     /*PESTAÑAS*/
+    /*.pestañas {
+        width: 20%;
+        height: 5vh;
+        background-color: white;
+    }*/
+
+
+
+
+    /*
     .pestañas {
         margin: 5% 5% 0 5%;
         width: max-content;
@@ -348,9 +124,10 @@
         align-items: flex-end;
         flex-direction: row;
         flex-wrap: nowrap;
-    }
+    }*/
     
     /* CARRITO */
+    /*
     .carrito {
         width: max-content;
         text-align: center;
@@ -364,9 +141,10 @@
     
     .carrito p {
         margin: 0;
-    }
+    }*/
     
     /* CUENTA */
+    /*
     .cuenta {
         width: max-content;
         text-align: center;
@@ -381,9 +159,10 @@
     
     .cuenta p {
         margin: 0;
-    }
+    }*/
     
     /*MENÚ DESPLEGABLE*/
+    /*
     .menuDesplegable {
         position: relative;
         display: inline-block;
@@ -408,9 +187,10 @@
     .boton-desplegable i {
         margin-right: 5px;
         background-color: white;
-    }
+    }*/
     
     /*ENLACES*/
+    /*
     .enlaces {
         display: none;
     }
@@ -426,77 +206,92 @@
     
     .menuDesplegable:hover .enlaces {
         display: block;
-    }
+    }*/
     
+
+    /*########################################################################################################################################*/
+    /*########################################################################################################################################*/
+    /*########################################################################################################################################*/
+    /*MAIN*/
+
     /*IMAGENES*/
     main {
-        width: 81%;
-        height: 80vh;
+        width: 80.5%;
+        height: 100vh;
         margin: auto;
-        background-color: blue;
     }
 
-    
+    /*###################################################################*/
+    /*PRIMERA FILA*/
     .primeraFila {
-        width: 100%;
-        height: 40%;
-        margin-top: 2%;
+        width: 60%;
+        height: 50%;
+        margin: auto;
     }
 
     .primeraFila img {
         width: 100%;
         height: 100%;
+        margin-top: 2%;
     }
 
-    /*
-    main img {
-        margin-top: 30px;
-        width: 100%;
-        padding: 0;
+    /*###################################################################*/
+    /*SEGUNDA FILA*/
+    .segundaFila {
+        width: 60%;
+        height: 20%;
+        margin: auto;
     }
 
     .segundaFila img {
-        width: 50%; 
+        margin-top: 2%;
+        width: 49%;
+        height: 90%;
         float: left;
-        margin-right: 136px;
     }
 
-    .segundaFila img + img{
-        width: auto;
-        margin-right: 0;
-        
+    .segundaFila img + img {
+        margin-left: 2%;
+    }
+
+    /*###################################################################*/
+    /*TERCERA FILA*/
+    .terceraFila {
+        width: 60%;
+        height: 15%;
+        margin: auto;
     }
 
     .terceraFila img {
-        width: 31%;
+        margin-top: 1%;
+        width: 32%;
+        float: left;
+        height: 90%;
+    }
+
+    .terceraFila img + img{
+        margin-left: 2%;
+    }
+
+    /*###################################################################*/
+    /*RECOMENDADO*/
+    .recomendado {
+        width: 60%;
         height: 30%;
-        float: left;
-        margin-right: 46px;
+        margin: auto;
     }
 
-    .terceraFila img + img + img{
-        width: 31%;
-        height: 30%;
-        float: left;
-        margin-right: 0;
+    .recomendado h2 {
+        margin: 2% 0 0 0;
+        width: max-content;
     }
 
-
-    .segundaFila {
-        display: block;
-    }
-
-
-
-
-    .recomendado h1 {
-        margin-top: 50px;
-    }
-
-    .recomendado img{
-        width: 30%;
+    .recomendado img {
+        width: 32%;
         float: left;
     }
 
-  */
+    .recomendado img + img {
+        margin-left: 2%;
+    }
 }
