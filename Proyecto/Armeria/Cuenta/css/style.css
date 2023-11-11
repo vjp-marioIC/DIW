@@ -145,8 +145,8 @@
 
     /*IMAGENES*/
     main {
-        width: 81%;
-        height: 100vh;
+        width: 100%;
+        height: 80vh;
         margin: auto;
     }
 
@@ -154,36 +154,39 @@
 
     /*FORMULARIO*/
     .formulario {
-        width: 60%;
+        width: 90%;
         height: 65vh;
         margin: auto;
         border: 5px solid black;
-        font-size: 1.5em;
+        font-size: 1.3em;
         
     }
 
     .formulario form {
         width: 90%;
-        height: 45vh;
+        height: 50vh;
         margin: auto;
         padding: 5%;
     }
 
+    .coreoElectronico::after {
+        content: " electrónico:";
+    }
+
+    #correoElectronico {
+        display: none;
+    }
+
     .formulario form label {
         font-weight: bold;
-        
         margin-left: 5%;
     }
 
     .formulario form input {
         margin-left: 5%;
-        width: 50%;
+        width: 90%;
         padding: 1%;
         border: 2px solid black;
-    }
-
-    #password{
-        margin-left: 14%;
     }
 
     .formulario p {
@@ -196,7 +199,7 @@
     }
 
     #iniciarSesion {
-        margin-left: 40%;
+        margin-left: 30%;
         padding: 2% 4%;
         width: max-content;
         font-weight: bold;
@@ -204,31 +207,31 @@
 
     #botonGoogle {
         margin-top: 5%;
-        margin-left: 31%;
+        margin-left: 10%;
         padding: 2% 4%;
-        width: 40%;
+        width: 80%;
         font-weight: bold;
         border: 2px solid black;
     }
 
     #botonFacebook {
-        margin-left: 31%;
+        margin-left: 10%;
         padding: 2% 4%;
-        width: 40%;
+        width: 80%;
         font-weight: bold;
         border: 2px solid black;
     }
 
     #botonGithub {
-        margin-left: 31%;
+        margin-left: 10%;
         padding: 2% 4%;
-        width: 40%;
+        width: 80%;
         font-weight: bold;
         border: 2px solid black;
     }
 
     .formulario>p {
-        width: 80%;
+        width: 95%;
         border-top: 2px solid black;
         margin: auto;
     }
@@ -381,7 +384,7 @@
 
     /*IMAGENES*/
     main {
-        width: 81%;
+        width: 95%;
         height: 100vh;
         margin: auto;
     }
@@ -390,8 +393,8 @@
 
     /*FORMULARIO*/
     .formulario {
-        width: 60%;
-        height: 65vh;
+        width: 95%;
+        height: 75vh;
         margin: auto;
         border: 5px solid black;
         font-size: 1.5em;
@@ -400,7 +403,7 @@
 
     .formulario form {
         width: 90%;
-        height: 45vh;
+        height: 60vh;
         margin: auto;
         padding: 5%;
     }
@@ -419,7 +422,7 @@
     }
 
     #password{
-        margin-left: 14%;
+        margin-left: 17%;
     }
 
     .formulario p {
@@ -440,25 +443,25 @@
 
     #botonGoogle {
         margin-top: 5%;
-        margin-left: 31%;
+        margin-left: 27%;
         padding: 2% 4%;
-        width: 40%;
+        width: 50%;
         font-weight: bold;
         border: 2px solid black;
     }
 
     #botonFacebook {
-        margin-left: 31%;
+        margin-left: 27%;
         padding: 2% 4%;
-        width: 40%;
+        width: 50%;
         font-weight: bold;
         border: 2px solid black;
     }
 
     #botonGithub {
-        margin-left: 31%;
+        margin-left: 27%;
         padding: 2% 4%;
-        width: 40%;
+        width: 50%;
         font-weight: bold;
         border: 2px solid black;
     }
