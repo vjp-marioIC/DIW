@@ -8,7 +8,7 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-    <title>Armas</title>
+    <title>Inicio de Sesión</title>
 </head>
 
 <body>
@@ -60,7 +60,48 @@
     </header>
 
     <main>
-      
+        <h1>Crea su cuenta</h1>
+
+        <div class="formulario">
+            <form action="cuenta.html" method="post">
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombreForm" id="nombre">
+           
+                <br>
+                <br>
+
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" name="apellidosForm" id="apellidos">
+           
+                <br>
+                <br>
+
+                <label for="correo" class="coreoElectronico">Dirección de correo </label>
+                <input type="text" name="correoForm" id="correo">
+                <br>
+                <label id="correoElectronico">elctrónico:</label>
+
+                <br>
+                <br>
+
+                <label for="password">Contraseña: </label>
+                <input type="password" name="passwordForm" id="password">
+           
+                <br>
+                <br>
+
+                <label for="confirmarPassword">Confirmar contraseña: </label>
+                <input type="password" name="confirmarPasswordForm" id="confirmarPassword">
+           
+                <br>
+                <br>
+
+                <input type="checkbox" name="checkboxForm" id="checkbox">
+                <label for="checkbox" class="checkbox">Acepto las condiciones generales y la política de confidencialidad</label>
+
+                <input type="button" name="boton" value="CREAR CUENTA" id="crearCuenta">
+            </form>
+        </div>
     </main>
 </body>
 </html>
