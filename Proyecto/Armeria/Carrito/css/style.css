@@ -145,12 +145,61 @@
 
     /*IMAGENES*/
     main {
-        width: 100%;
-        height: 60vh;
+        width: 95%;
+        height: 95vh;
         margin: auto;
+        position: relative;
     }
 
+
     /*###################################################################*/
+
+    main img {
+        border: 5px solid black;
+        float: left;
+        width: 35%;
+        display: block;
+    }
+
+    /*PARRAFOS*/
+    main h2 {
+        margin-left: 5%;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: max-content;
+        display: inline-block;
+    }
+    
+    main p {
+        margin-left: 5%;
+        width: 50%;
+        display: inline-block;
+    }
+
+    main p + p{
+        display: none;
+    }
+
+    .precio {
+        display: block;
+        margin-left: 42%;
+    }
+
+    /*BOTÓN*/
+    main button {
+        position: absolute;
+        bottom: 8%;
+        right: 14%;
+        padding: 1% 2%;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+
+    #precioTotal {
+        position: absolute;
+        bottom: 1%;
+        right: 7%;
+    }
 }
 
 /*########################################################################################################################################*/
@@ -299,14 +348,57 @@
     /*MAIN*/
 
     /*IMAGENES*/
-
     main {
-        width: 100%;
+        width: 95%;
         height: 100vh;
         margin: auto;
+        position: relative;
     }
 
+
     /*###################################################################*/
+
+    main img {
+        border: 5px solid black;
+        float: left;
+        width: 30%;
+        display: block;
+    }
+
+    /*PARRAFOS*/
+    main h2 {
+        margin-left: 5%;
+        margin-top: 0;
+        width: max-content;
+        display: inline-block;
+    }
+    
+    main p {
+        margin-left: 5%;
+        width: 50%;
+        display: inline-block;
+    }
+
+    .precio {
+        display: block;
+        margin-left: 37%;
+    }
+
+    /*BOTÓN*/
+    main button {
+        position: absolute;
+        bottom: 8%;
+        right: 10%;
+        padding: 1% 2%;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+
+    #precioTotal {
+        position: absolute;
+        bottom: 1%;
+        right: 7%;
+    }
 }
 
 /*########################################################################################################################################*/
@@ -456,10 +548,54 @@
 
     /*IMAGENES*/
     main {
-        width: 80.5%;
+        width: 81%;
         height: 100vh;
         margin: auto;
+        font-size: 1.4em;
+        position: relative;
     }
 
+
     /*###################################################################*/
+
+    main img {
+        border: 5px solid black;
+        float: left;
+        display: block;
+    }
+
+    /*PARRAFOS*/
+    main h2 {
+        margin-left: 5%;
+        margin-top: 0;
+        width: max-content;
+        display: inline-block;
+    }
+    
+    main p {
+        margin-left: 5%;
+        width: 50%;
+        display: inline-block;
+    }
+
+    .precio {
+        display: block;
+        margin-left: 25%;
+    }
+
+    /*BOTÓN*/
+    main button {
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        padding: 1% 2%;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+
+    #precioTotal {
+        position: absolute;
+        bottom: 2%;
+        right: 8%;
+    }
 }
