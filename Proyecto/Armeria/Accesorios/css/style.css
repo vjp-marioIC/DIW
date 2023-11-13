@@ -94,7 +94,7 @@
         margin: 0;
     }
    
-   /*###################################################################*/
+    /*###################################################################*/
     /*MENÚ*/
     .menu {
         position: relative;
@@ -146,12 +146,106 @@
 
     /*IMAGENES*/
     main {
-        width: 100%;
-        height: 60vh;
+        width: 95%;
+        height: 100vh;
         margin: auto;
+        font-size: 1.3em;
+        position: relative;
     }
 
     /*###################################################################*/
+    /*MENÚ*/
+    main .boton-desplegable {
+        background-color: #333;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    main .enlaces {
+        list-style-type: none;
+        padding: 20px;
+        margin: 0;
+        display: none;
+        position: absolute;
+        background-color: #333;
+        z-index: 100;
+    }
+    
+    main .enlaces h2 {
+        color: white;
+        border-bottom: 2px solid white;
+        margin-bottom: 0;
+        width: max-content;
+    }
+
+    main .enlaces li {
+        padding: 10px;
+        text-align: left;
+    }
+
+    main .enlaces select {
+        padding: 5px;
+        font-weight: bold;
+        width: 50%;
+    }
+
+    main .enlaces input {
+        width: max-content;
+    }
+
+    main .enlaces label {
+        color: white;
+        width: max-content;
+    }
+    
+    main .enlaces a {
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+    
+    main .menu:hover .enlaces {
+        display: block;
+    }
+
+    main .menu p {
+        color: black;
+        display: inline-block;
+    }
+
+    /*###################################################################*/
+    /*IMAGENES*/
+    main a img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    a:nth-child(4) img, a:nth-child(5) img, a:nth-child(6) img, a:nth-child(7) img, a:nth-child(8) img, a:nth-child(9) img, a:nth-child(10) img {
+        display: none;
+    }
+
+    /*###################################################################*/
+    /*PÁGINAS*/
+    main .paginas {
+        width: max-content;
+        border: 2px solid black;
+        padding: 5%;
+        position: absolute;
+        right: 35%;
+        bottom: 5%;
+    }
+
+    main .paginas p {
+        margin: 0;
+    }
+    
+    main .paginas p a {
+        color: black;
+        text-decoration: none;
+    }
 }
 
 /*########################################################################################################################################*/
@@ -300,14 +394,100 @@
     /*MAIN*/
 
     /*IMAGENES*/
-
     main {
-        width: 100%;
+        width: 95%;
         height: 100vh;
         margin: auto;
+        position: relative;
+        display: flex;
     }
 
     /*###################################################################*/
+    /*MENÚ*/
+    main .menu {
+        width: 30%;
+        height: 95vh;
+        margin: 0;
+        border-top: none;
+    }
+
+    main .menu button {
+        display: none;
+    }
+
+    main .enlaces h2 {
+        border-bottom: 2px solid black;
+    }
+
+    main .enlaces {
+        list-style-type: none;
+        padding: 0;
+        border: 3px solid black;
+        padding: 5%;
+        width: 90%;
+        height: 90vh;
+     }
+
+    main .enlaces a {
+        color: black;
+        text-decoration: none;
+        width: 100%;
+        margin-bottom: 10%;
+
+    }
+    
+    main .enlaces select {
+        padding: 5px;
+        font-weight: bold;
+        width: 80%;
+    }
+
+    main .menu p {
+        display: none;
+    }
+
+    /*###################################################################*/
+    /*IMAGENES*/
+    main .imagenes {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    main .imagenes a {
+        flex: 0 0 calc(40% - 5px);
+        max-width: calc(40% - 5px);
+    }
+
+    main .imagenes img {
+        width: 95%;
+    }
+
+    a:nth-child(7) img, a:nth-child(8) img, a:nth-child(9) img, a:nth-child(10) img {
+        display: none;
+    }
+
+    /*###################################################################*/
+    /*PÁGINAS*/
+    main .paginas {
+        width: max-content;
+        border: 2px solid black;
+        padding: 2%;
+        position: absolute;
+        right: 25%;
+        bottom: 5%;
+    }
+
+    main .paginas p {
+        margin: 0;
+    }
+    
+    main .paginas p a {
+        color: black;
+        text-decoration: none;
+    }
 }
 
 /*########################################################################################################################################*/
@@ -422,7 +602,7 @@
    /*###################################################################*/
     /*MENÚ*/
     .menu {
-        width: 47%;
+        width: 48%;
         height: 5vh;
         display: inline-block;
         border-top: 3px solid white;
@@ -457,10 +637,107 @@
 
     /*IMAGENES*/
     main {
-        width: 80.5%;
+        width: 81%;
         height: 100vh;
         margin: auto;
+        position: relative;
+        display: flex;
+        font-size: 1.3em;
     }
 
     /*###################################################################*/
+    /*MENÚ*/
+    main .menu {
+        width: 30%;
+        height: 100vh;
+        margin: 0;
+        border-top: none;
+    }
+
+    main .menu button {
+        display: none;
+    }
+
+    main .enlaces h2 {
+        border-bottom: 2px solid black;
+        width: max-content;
+    }
+
+    main .enlaces {
+        list-style-type: none;
+        padding: 0;
+        border: 3px solid black;
+        padding: 5%;
+        width: 90%;
+     }
+
+    main .enlaces a {
+        color: black;
+        text-decoration: none;
+        width: 100%;
+        margin-bottom: 10%;
+
+    }
+    
+    .coloresCheckbox {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .coloresCheckbox > div {
+        flex: 1 0 48%;
+    }
+    
+    main .enlaces select {
+        padding: 5px;
+        font-weight: bold;
+        width: 80%;
+    }
+
+    main .menu p {
+        display: none;
+    }
+
+    /*###################################################################*/
+    /*IMAGENES*/
+    main .imagenes {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    main .imagenes a {
+        flex: 0 0 calc(45% - 5px);
+        max-width: calc(45% - 5px);
+    }
+
+    main .imagenes img {
+        width: 60%;
+    }
+
+    a:nth-child(7) img, a:nth-child(8) img, a:nth-child(9) img, a:nth-child(10) img {
+        display: none;
+    }
+
+    /*###################################################################*/
+    /*PÁGINAS*/
+    main .paginas {
+        width: max-content;
+        border: 2px solid black;
+        padding: 1%;
+        position: absolute;
+        right: 37%;
+        bottom: 2%;
+    }
+
+    main .paginas p {
+        margin: 0;
+    }
+    
+    main .paginas p a {
+        color: black;
+        text-decoration: none;
+    }
 }
