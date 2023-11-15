@@ -1,3 +1,7 @@
+* {
+    font-family: 'Alef';
+}
+
 /*PARA PANTALLAS DE UN ANCHO MÁXIMO DE 425px*/
 @media screen and (max-width: 425px) {
     body {
@@ -620,7 +624,7 @@
     }
 
     #apellidos {
-        margin-left: 21%;
+        margin-left: 20.5%;
     }
 
     #correo {

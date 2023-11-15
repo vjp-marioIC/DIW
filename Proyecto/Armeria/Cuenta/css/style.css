@@ -1,3 +1,7 @@
+* {
+    font-family: 'Alef';
+}
+
 /*PARA PANTALLAS DE UN ANCHO MÁXIMO DE 425px*/
 @media screen and (max-width: 425px) {
     body {
@@ -236,6 +240,10 @@
         border-top: 2px solid black;
         margin: auto;
     }
+
+    main .formulario>p a {
+        font-weight: bold;
+    }
 }
 
 /*########################################################################################################################################*/
@@ -472,6 +480,10 @@
         border-top: 2px solid black;
         margin: auto;
     }
+
+    main .formulario>p a {
+        font-weight: bold;
+    }
 }
 
 /*########################################################################################################################################*/
@@ -707,5 +719,9 @@
         width: 80%;
         border-top: 2px solid black;
         margin: auto;
+    }
+
+    main .formulario>p a {
+        font-weight: bold;
     }
 }
