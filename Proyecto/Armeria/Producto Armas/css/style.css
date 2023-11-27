@@ -171,6 +171,19 @@
     main p {
         width: 90%;
     }
+
+    #precio {
+        margin-bottom: 0;
+        display: inline-block;
+    }
+
+    main a button {
+        font-weight: bold;
+        padding: 1% 2%;
+        border: 1px solid black;
+        border-radius: 5%;
+        margin-left: 5%;
+    }
 }
 
 /*########################################################################################################################################*/
@@ -352,6 +365,16 @@
        bottom: 40%;
        right: 25%;
     }
+
+    main a button {
+        font-weight: bold;
+        padding: 1% 2%;
+        border: 1px solid black;
+        border-radius: 5%;
+        position: absolute;
+        right: 30%;
+        bottom: 38%;
+    }
 }
 
 /*########################################################################################################################################*/
@@ -528,5 +551,13 @@
         margin-left: 5%;
         width: 50%;
         display: inline-block;
+    }
+    
+    main a button {
+        font-weight: bold;
+        padding: 1% 2%;
+        margin-left: 3%;
+        border: 1px solid black;
+        border-radius: 5%;
     }
 }
