@@ -119,56 +119,48 @@
     background-color: #122738;
     color: white;
     text-align: center;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 .contenedor14 #elemento2 {
     background-color: #183449;
     color: white;
     text-align: center;
-    margin-right: 10px;
 }
 
 .contenedor14 #elemento3 {
     background-color: #214661;
     color: white;
     text-align: center;
-    margin-right: 10px;
 }
 
 .contenedor14 #elemento4 {
     background-color: #2a5a7e;
     color: white;
     text-align: center;
-    margin-right: 10px;
 }
 
 .contenedor14 #elemento5 {
     background-color: #34719e;
     color: white;
     text-align: center;
-    margin-left: 20px;
-    margin-right: 50px;
 }
 
 .contenedor14 #elemento6 {
     background-color: #3f86bc;
     color: white;
     text-align: center;
-    margin-right: 50px;
 }
 
 .contenedor14 #elemento7 {
     background-color: #4698d4;
     color: white;
     text-align: center;
-    margin-right: 50px;
 }
 
 .contenedor14 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 500px;
 }
 
@@ -249,7 +241,7 @@
     color: white;
     text-align: center;
     height: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .contenedor18 #elemento3 {
@@ -257,7 +249,7 @@
     color: white;
     text-align: center;
     height: 10px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .contenedor18 #elemento4 {
@@ -265,7 +257,7 @@
     color: white;
     text-align: center;
     height: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .contenedor18 #elemento5 {
@@ -273,7 +265,7 @@
     color: white;
     text-align: center;
     height: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .contenedor18 #elemento6 {
@@ -288,12 +280,14 @@
     color: white;
     text-align: center;
     height: 25px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .contenedor18 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
     width: 470px;
 }
 
@@ -404,7 +398,10 @@
 .contenedor21 {
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-end;
     width: 500px;
+    height: 300px;
+    background-color: rgb(213, 210, 210);
 }
 
 /*######################################################################################################*/
@@ -516,7 +513,6 @@
 
 .contenedor25 {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .contenedor25 #elemento1 { order: 1; }
@@ -556,7 +552,7 @@
     background-color: #2a5a7e;
     color: white;
     text-align: center;
-    width: 300px;
+    flex-grow: 1;
 }
 
 .contenedor26 #elemento5 {
@@ -579,5 +575,5 @@
 
 .contenedor26 {
     display: flex;
-    flex-wrap: wrap;
+    width: 60%;
 }
