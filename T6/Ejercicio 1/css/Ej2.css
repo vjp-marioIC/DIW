@@ -1,99 +1,583 @@
-body {
-    background-color: grey;
+/*CONTENEDOR 1*/
+.contenedor1 div {
+    width: 100px;
+    height: 40px;
 }
 
-#elemento1 {
-    width: 100px;
+.contenedor1 #elemento1 {
     background-color: #122738;
     color: white;
     text-align: center;
 }
 
-#elemento2 {
-    width: 100px;
+.contenedor1 #elemento2 {
     background-color: #183449;
     color: white;
     text-align: center;
 }
 
-#elemento3 {
-    width: 100px;
+.contenedor1 #elemento3 {
     background-color: #214661;
     color: white;
     text-align: center;
 }
 
-#elemento4 {
-    width: 100px;
+.contenedor1 #elemento4 {
     background-color: #214661;
     color: white;
     text-align: center;
 }
 
-#elemento5 {
-    width: 100px;
+.contenedor1 #elemento5 {
     background-color: #34719e;
     color: white;
     text-align: center;
 }
 
-#elemento6 {
-    width: 100px;
+.contenedor1 #elemento6 {
     background-color: #3f86bc;
     color: white;
     text-align: center;
 }
 
-#elemento7 {
-    width: 100px;
+.contenedor1 #elemento7 {
     background-color: #4698d4;
     color: white;
     text-align: center;
 }
 
-/*######################################################################################################*/
-/*Ejercicio 1*/
-/*
-.contenedor {
+.contenedor1 {
     display: flex;
     justify-content: flex-start;
     height: 100%;
-
 }
-
-.contenedor>div {
-    height: 40px;
-}
-*/
 
 /*######################################################################################################*/
-/*Ejercicio 7*/
-.contenedor {
+/*CONTENEDOR 7*/
+.contenedor7 .elemento {
+    width: 110px;
+    height: 40px;
+}
+
+.contenedor7 #elemento1 {
+    background-color: #122738;
+    color: white;
+    text-align: center;
+}
+
+.contenedor7 #elemento2 {
+    background-color: #183449;
+    color: white;
+    text-align: center;
+}
+
+.contenedor7 #elemento3 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
+
+.contenedor7 #elemento4 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
+
+.contenedor7 #elemento5 {
+    background-color: #34719e;
+    color: white;
+    text-align: center;
+}
+
+.contenedor7 #elemento6 {
+    background-color: #3f86bc;
+    color: white;
+    text-align: center;
+}
+
+.contenedor7 #elemento7 {
+    background-color: #4698d4;
+    color: white;
+    text-align: center;
+}
+
+.contenedor7 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    width: 500px;
+}
+
+/*######################################################################################################*/
+/*CONTENEDOR 14*/
+.contenedor14 .elemento {
+    width: 110px;
+    height: 40px;
+}
+
+.contenedor14 #elemento1 {
+    background-color: #122738;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.contenedor14 #elemento2 {
+    background-color: #183449;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.contenedor14 #elemento3 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.contenedor14 #elemento4 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.contenedor14 #elemento5 {
+    background-color: #34719e;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.contenedor14 #elemento6 {
+    background-color: #3f86bc;
+    color: white;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.contenedor14 #elemento7 {
+    background-color: #4698d4;
+    color: white;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.contenedor14 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+
+/*######################################################################################################*/
+/*CONTENEDOR 17*/
+.contenedor17 .elemento {
+    width: 110px;
+    height: 40px;
+}
+
+.contenedor17 #elemento1 {
+    background-color: #122738;
+    color: white;
+    text-align: center;
+}
+
+.contenedor17 #elemento2 {
+    background-color: #183449;
+    color: white;
+    text-align: center;
+}
+
+.contenedor17 #elemento3 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
+
+.contenedor17 #elemento4 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
+
+.contenedor17 #elemento5 {
+    background-color: #34719e;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor17 #elemento6 {
+    background-color: #3f86bc;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor17 #elemento7 {
+    background-color: #4698d4;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor17 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 470px;
+}
+
+/*######################################################################################################*/
+/*CONTENEDOR 18*/
+.contenedor18 .elemento {
+    width: 110px;
+    height: 40px;
+}
+
+.contenedor18 #elemento1 {
+    background-color: #122738;
+    color: white;
+    text-align: center;
+}
+
+.contenedor18 #elemento2 {
+    background-color: #183449;
+    color: white;
+    text-align: center;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.contenedor18 #elemento3 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+    height: 10px;
+    margin-top: 20px;
+}
+
+.contenedor18 #elemento4 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.contenedor18 #elemento5 {
+    background-color: #34719e;
+    color: white;
+    text-align: center;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.contenedor18 #elemento6 {
+    background-color: #3f86bc;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contenedor18 #elemento7 {
+    background-color: #4698d4;
+    color: white;
+    text-align: center;
+    height: 25px;
+    margin-top: 15px;
+}
+
+.contenedor18 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 470px;
+}
+
+/*######################################################################################################*/
+/*CONTENEDOR 19*/
+.contenedor19 .elemento {
+    width: 110px;
+    height: 60px;
+}
+
+.contenedor19 #elemento1 {
+    background-color: #122738;
+    color: white;
+    text-align: center;
+}
+
+.contenedor19 #elemento2 {
+    background-color: #183449;
+    color: white;
+    text-align: center;
+}
+
+.contenedor19 #elemento3 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
+
+.contenedor19 #elemento4 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
+
+.contenedor19 #elemento5 {
+    background-color: #34719e;
+    color: white;
+    text-align: center;
+}
+
+.contenedor19 #elemento6 {
+    background-color: #3f86bc;
+    color: white;
+    text-align: center;
+}
+
+.contenedor19 #elemento7 {
+    background-color: #4698d4;
+    color: white;
+    text-align: center;
+}
+
+.contenedor19 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+/*######################################################################################################*/
+/*CONTENEDOR 21*/
+.contenedor21 .elemento {
+    width: 110px;
+    height: 20px;
+}
+
+.contenedor21 #elemento1 {
+    background-color: #122738;
+    color: white;
+    text-align: center;
+}
+
+.contenedor21 #elemento2 {
+    background-color: #183449;
+    color: white;
+    text-align: center;
+}
+
+.contenedor21 #elemento3 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
+
+.contenedor21 #elemento4 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
+
+.contenedor21 #elemento5 {
+    background-color: #34719e;
+    color: white;
+    text-align: center;
+}
+
+.contenedor21 #elemento6 {
+    background-color: #3f86bc;
+    color: white;
+    text-align: center;
+}
+
+.contenedor21 #elemento7 {
+    background-color: #4698d4;
+    color: white;
+    text-align: center;
+}
+
+.contenedor21 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+/*######################################################################################################*/
+/*CONTENEDOR 24*/
+.contenedor24 .elemento {
+    width: 110px;
+    height: 40px;
+}
+
+.contenedor24 #elemento1 {
+    background-color: #122738;
+    color: white;
+    text-align: center;
+}
+
+.contenedor24 #elemento2 {
+    background-color: #183449;
+    color: white;
+    text-align: center;
+}
+
+.contenedor24 #elemento3 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
+
+.contenedor24 #elemento4 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
+
+.contenedor24 #elemento5 {
+    background-color: #34719e;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor24 #elemento6 {
+    background-color: #3f86bc;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor24 #elemento7 {
+    background-color: #4698d4;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor24 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 470px;
+}
+
+/*######################################################################################################*/
+/*CONTENEDOR 25*/
+.contenedor25 .elemento {
+    width: 100px;
+    height: 40px;
+}
+
+.contenedor25 #elemento1 {
+    background-color: #122738;
+    color: white;
+    text-align: center;
+}
+
+.contenedor25 #elemento2 {
+    background-color: #183449;
+    color: white;
+    text-align: center;
+}
+
+.contenedor25 #elemento3 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
+
+.contenedor25 #elemento4 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
+
+.contenedor25 #elemento5 {
+    background-color: #34719e;
+    color: white;
+    text-align: center;
+}
+
+.contenedor25 #elemento6 {
+    background-color: #3f86bc;
+    color: white;
+    text-align: center;
+}
+
+.contenedor25 #elemento7 {
+    background-color: #4698d4;
+    color: white;
+    text-align: center;
+}
+
+.contenedor25 {
     display: flex;
     flex-wrap: wrap;
 }
 
+.contenedor25 #elemento1 { order: 1; }
+.contenedor25 #elemento2 { order: 5; }
+.contenedor25 #elemento3 { order: 2; }
+.contenedor25 #elemento4 { order: 6; }
+.contenedor25 #elemento5 { order: 3; }
+.contenedor25 #elemento6 { order: 7; }
+.contenedor25 #elemento7 { order: 4; }
 
 /*######################################################################################################*/
-/*Ejercicio 14*/
+/*CONTENEDOR 26*/
+.contenedor26 .elemento {
+    width: 110px;
+    height: 40px;
+}
 
-/*######################################################################################################*/
-/*Ejercicio 17*/
+.contenedor26 #elemento1 {
+    background-color: #122738;
+    color: white;
+    text-align: center;
+}
 
-/*######################################################################################################*/
-/*Ejercicio 18*/
+.contenedor26 #elemento2 {
+    background-color: #183449;
+    color: white;
+    text-align: center;
+}
 
-/*######################################################################################################*/
-/*Ejercicio 19*/
+.contenedor26 #elemento3 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+}
 
-/*######################################################################################################*/
-/*Ejercicio 21*/
+.contenedor26 #elemento4 {
+    background-color: #214661;
+    color: white;
+    text-align: center;
+    width: 300px;
+}
 
-/*######################################################################################################*/
-/*Ejercicio 24*/
+.contenedor26 #elemento5 {
+    background-color: #34719e;
+    color: white;
+    text-align: center;
+}
 
-/*######################################################################################################*/
-/*Ejercicio 25*/
+.contenedor26 #elemento6 {
+    background-color: #3f86bc;
+    color: white;
+    text-align: center;
+}
 
-/*######################################################################################################*/
-/*Ejercicio 26*/
+.contenedor26 #elemento7 {
+    background-color: #4698d4;
+    color: white;
+    text-align: center;
+}
+
+.contenedor26 {
+    display: flex;
+    flex-wrap: wrap;
+}
