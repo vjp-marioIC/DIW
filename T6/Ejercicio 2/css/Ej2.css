@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+/*################################################################################*/
+/* CONTENEDOR A */
+#contenedor1 {
+    background-color: #32cd32;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contenedor1 .titulo {
+    color: white;
+    background-color: #dc143c;
+    padding: 20px;
+}
+
+#contenedor1 .titulo h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+#contenedor1 .enlaces {
+    background-color: #cccccc;
+    padding: 10px;
+}
+
+#contenedor1 .enlaces a {
+    text-decoration: none;
+    color: #7f7f7f;
+}
+
+/*################################################################################*/
+/* CONTENEDOR B */
+#contenedor2 {
+    background-color: #32cd32;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+#contenedor2 .titulo {
+    color: white;
+    background-color: #dc143c;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor2 .titulo h1 {
+    font-weight: bold;
+    margin: 0;    
+}
+
+#contenedor2 .enlaces {
+    background-color: #cccccc;
+    display: flex;
+}
+
+#contenedor2 .enlaces a {
+    text-decoration: none;
+    color: #7f7f7f;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
+
+#contenedor2 .enlaces a:hover {
+    text-decoration: none;
+    background-color: #555555;
+    color: white;
+}
+
+/*################################################################################*/
+/* CONTENEDOR C */
+#contenedor3 {
+    background-color: #32cd32;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contenedor3 .titulo {
+    color: white;
+    background-color: #dc143c;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor3 .titulo h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+#contenedor3 .enlaces {
+    background-color: #cccccc;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contenedor3 .enlaces a {
+    text-decoration: none;
+    color: #7f7f7f;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
+
+#contenedor3 .enlaces a:hover {
+    text-decoration: none;
+    background-color: #555555;
+    color: white;
+}
