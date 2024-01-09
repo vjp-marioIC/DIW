@@ -1,0 +1,209 @@
+body {
+    background-color: gray;
+}
+
+/*#########################################################################*/
+/*CONTENEDOR PRINCIPAL*/
+#principal {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/*#########################################################################*/
+/*DADO 1*/
+#dado1 {
+    background-color: #dc133b;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dado1 .puntoCentro {
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+
+}
+
+/*#########################################################################*/
+/*DADO 2*/
+#dado2 {
+    background-color: #dc133b;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#dado2 .puntoArribaIzquierda {
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-items: flex-start;
+
+}
+
+#dado2 .puntoAbajoDerecha{
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-self: flex-end;
+    
+}
+
+/*#########################################################################*/
+/*DADO 3*/
+#dado3 {
+    background-color: #dc133b;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dado3 .puntoArribaIzquierda {
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-items: flex-start;
+
+}
+
+#dado3 .puntoCentro {
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-items: center;
+}
+
+#dado3 .puntoAbajoDerecha{
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-self: flex-end;
+}
+
+/*#########################################################################*/
+/*DADO 4*/
+#dado4 {
+    background-color: #dc133b;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dado4 .puntoArribaIzquierda {
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-items: flex-start;
+
+}
+
+#dado4 .puntoArribaDerecha{
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-self: flex-end;
+}
+
+#dado4 .puntoAbajoIzquierda{
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-self: flex-end;
+}
+
+#dado4 .puntoAbajoDerecha{
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-self: flex-end;
+}
+
+/*#########################################################################*/
+/*DADO 5*/
+#dado5 {
+    background-color: #dc133b;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dado5 .puntoArribaIzquierda {
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-items: flex-start;
+
+}
+
+#dado5 .puntoArribaDerecha{
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-self: flex-end;
+}
+
+#dado5 .puntoCentro {
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+
+}
+
+#dado5 .puntoAbajoIzquierda{
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-self: flex-end;
+}
+
+#dado5 .puntoAbajoDerecha{
+    width: 50px;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: white;
+    align-self: flex-end;
+}
+
+/*#########################################################################*/
+/*DADO 6*/
+#dado6 {
+    background-color: #dc133b;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
