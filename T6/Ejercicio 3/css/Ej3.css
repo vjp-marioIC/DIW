@@ -1,209 +1,99 @@
 body {
-    background-color: gray;
+    margin: 0;
 }
 
-/*#########################################################################*/
-/*CONTENEDOR PRINCIPAL*/
-#principal {
+/*############################################################################*/
+/*CONTENEDOR PRINCIPAL, PUNTOS Y CARAS DE LOS DADOS*/
+.principal {
     display: flex;
-    align-items: flex-start;
-    gap: 20px;
+    flex-wrap: wrap;
 }
 
-/*#########################################################################*/
+.punto {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+[class^="cara-"] {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+
+/*############################################################################*/
 /*DADO 1*/
-#dado1 {
-    background-color: #dc133b;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    display: flex;
+.cara-1 {
     justify-content: center;
     align-items: center;
 }
 
-#dado1 .puntoCentro {
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-
-}
-
-/*#########################################################################*/
+/*############################################################################*/
 /*DADO 2*/
-#dado2 {
-    background-color: #dc133b;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    display: flex;
+.cara-2 {
     justify-content: space-between;
-    
 }
 
-#dado2 .puntoArribaIzquierda {
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-    align-items: flex-start;
-
-}
-
-#dado2 .puntoAbajoDerecha{
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
+.cara-2 .punto:nth-child(2) {
     align-self: flex-end;
-    
 }
 
-/*#########################################################################*/
+/*############################################################################*/
 /*DADO 3*/
-#dado3 {
-    background-color: #dc133b;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    display: flex;
+.cara-3 {
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
 
-#dado3 .puntoArribaIzquierda {
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-    align-items: flex-start;
-
+.cara-3 .punto:nth-child(2) {
+    align-self: center;
 }
 
-#dado3 .puntoCentro {
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-    align-items: center;
-}
-
-#dado3 .puntoAbajoDerecha{
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
+.cara-3 .punto:nth-child(3) {
     align-self: flex-end;
 }
 
-/*#########################################################################*/
+/*############################################################################*/
 /*DADO 4*/
-#dado4 {
-    background-color: #dc133b;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
+.cara-4 {
+    justify-content: space-between;
+}
+
+.cara-4 .columna {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#dado4 .puntoArribaIzquierda {
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-    align-items: flex-start;
-
-}
-
-#dado4 .puntoArribaDerecha{
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-    align-self: flex-end;
-}
-
-#dado4 .puntoAbajoIzquierda{
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-    align-self: flex-end;
-}
-
-#dado4 .puntoAbajoDerecha{
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-    align-self: flex-end;
-}
-
-/*#########################################################################*/
+/*############################################################################*/
 /*DADO 5*/
-#dado5 {
-    background-color: #dc133b;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
+.cara-5 {
+    justify-content: space-between;
+}
+
+.cara-5 .columna {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#dado5 .puntoArribaIzquierda {
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-    align-items: flex-start;
-
+.cara-5 .medio {
+    align-self: center;
 }
 
-#dado5 .puntoArribaDerecha{
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-    align-self: flex-end;
-}
-
-#dado5 .puntoCentro {
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-
-}
-
-#dado5 .puntoAbajoIzquierda{
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-    align-self: flex-end;
-}
-
-#dado5 .puntoAbajoDerecha{
-    width: 50px;
-    height: 5vh;
-    border-radius: 100%;
-    background-color: white;
-    align-self: flex-end;
-}
-
-/*#########################################################################*/
+/*############################################################################*/
 /*DADO 6*/
-#dado6 {
-    background-color: #dc133b;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cara-6 {
+    justify-content: space-between;
 }
 
+.cara-6 .columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
