@@ -3,7 +3,7 @@ body {
 }
 
 /*############################################################################*/
-/*CONTENEDOR PRINCIPAL, PUNTOS Y CARAS DE LOS DADOS*/
+/*CONTENEDOR PRINCIPAL, PUNTOS, FICHAS, CARAS DE LOS DADOS Y LINEA DIVISORA*/
 .principal {
     display: flex;
     flex-wrap: wrap;
@@ -25,14 +25,10 @@ body {
     border-radius: 20px;
 }
 
-.columna {
-    display: flex;
-}
-
 [class^="cara-"] {
     width: 150px;
     height: 200px;
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
     border-radius: 20px;
     display: flex;
@@ -44,6 +40,10 @@ body {
     background-color: black;
     border-radius: 20px;
     display: block;
+}
+
+.columna {
+    display: flex;
 }
 
 /*############################################################################*/
