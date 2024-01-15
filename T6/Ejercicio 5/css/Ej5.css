@@ -2,8 +2,16 @@ body {
     margin: 0;
 }
 
-p  {
+p {
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
 }
 
 header {
@@ -19,7 +27,7 @@ header {
 #titulo {
     margin: 0;
     flex-grow: 1;
-    text-align: center; /* Centrar el texto dentro del div */
+    text-align: center;
 }
 
 h1 {
@@ -27,6 +35,8 @@ h1 {
 }
 
 header ul {
+    list-style: none;
+    margin-right: 50px;
     display: flex;
 }
 
@@ -48,29 +58,23 @@ header ul li a {
 aside {
     color: white;
     background-color: #d46a6a;
-    width: 30%;
+    flex: 1;
     height: 80vh;
-    
-    /*###########################*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
-    text-align: center;
+    justify-content: center;
 }
 
 main {
     color: white;
     background-color: #a93a39;
-    width: 70%;
+    flex: 4;
     height: 80vh;
-
-    /*###########################*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
-    text-align: center;
+    justify-content: center;
 }
 
 footer {
@@ -78,16 +82,44 @@ footer {
     background-color: #540000;
     width: 100%;
     height: 10vh;
-
-    /*###########################*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
-    text-align: center;
+    justify-content: center;
 }
 
-
 @media screen and (max-width: 700px) {
+    header {
+        height: 20vh;
+    }
 
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        height: 70vh;
+    }
+
+    aside {
+        width: 100%;
+        height: 10vh;
+    }
+
+    main {
+        width: 100%;
+        height: 60vh;
+    }
+
+    footer {
+        height: 20vh;
+    }
 }
