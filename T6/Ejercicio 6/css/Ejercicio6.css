@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgba(255, 100, 50, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*##########################################################*/
+/*HEADER*/
+header {
+    background-color: #4169e2;
+    width: 90%;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    color: #FFF;
+    margin: 20px;
+}
+
+header img {
+    width: 150px;
+    border-radius: 15px;
+}
+
+/*##########################################################*/
+/*ASIDE*/
+aside {
+    background-color: white;
+    width: 200px;
+    height: 80vh;
+}
+
+aside img {
+    width: 200px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+/*##########################################################*/
+.responsive-tabs {
+    margin: 20px auto;
+    margin-top: 0px;
+    width: 90%;
+}
+
+.responsive-tabs .estado {
+    display: none;               /* Ocultamos los input radio */
+}
+
+.responsive-tabs .flex-tabs {
+    display: flex;                      /* Flex Tabs */
+    justify-content: space-between;     /* Espacio entre ellos */
+    flex-wrap: wrap;                    /* Wrap por si no caben */
+    border-top: 10px solid #FFD0C1;
+}
+
+.responsive-tabs .flex-tabs .tab {
+    flex-grow: 1;                       /* Indicamos que crezcan por igual */
+}
+
+/* Configuración del panel. Por defecto todos ocultos */
+.responsive-tabs .flex-tabs .panel {
+    background-color: #FFF;
+    padding: 20px;
+    min-height: 250px;
+    width: 100%;
+    flex-basis: auto;
+    display: none;
+}
+
+
+/* Configuración de los tabs. */
+.responsive-tabs .tab {
+    padding: 10px;
+    background-color: #eee;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #AAA;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.responsive-tabs .tab:hover {
+    background-color: #fff;
+    color:crimson;
+}
+
+#tab-uno-panel {
+    padding: 50px;
+}
+
+#tab-uno-panel img {
+    width: 80%;
+}
+
+/* Al seleccionarlo cambiamos estilo del label */
+#tab-uno:checked~.tabs #tab-uno-label,
+#tab-dos:checked~.tabs #tab-dos-label,
+#tab-tres:checked~.tabs #tab-tres-label,
+#tab-cuatro:checked~.tabs #tab-cuatro-label {
+    background-color: #fff;
+    cursor: default;
+    font-weight: bold;
+    color: white;
+    background-color: #4169e2;
+    border-bottom: none;
+}
+
+/* Al seleccionar la etiqueta mostramos el panel */
+#tab-uno:checked~.tabs #tab-uno-panel,
+#tab-dos:checked~.tabs #tab-dos-panel,
+#tab-tres:checked~.tabs #tab-tres-panel,
+#tab-cuatro:checked~.tabs #tab-cuatro-panel {
+    display: block;
+}
+
+/*##########################################################*/
+/*FOOTER*/
+footer {
+    color: white;
+    background-color: #4169e2;
+    width: 90%;
+    height: 5vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+/* Configuración de vista Responsive */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .flex-tabs {
+        flex-direction: column;
+    }
+
+    .flex-tabs .tab {
+        background: #fff;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .flex-tabs .tab:last-of-type {
+        border-bottom: none;
+    }
+
+    /* Asociamos cada etiqueta a cada panel para que se muestre forma correcta */
+    .flex-tabs #tab-uno-label {
+        order: 1;
+    }
+
+    .flex-tabs #tab-dos-label {
+        order: 3;
+    }
+
+    .flex-tabs #tab-tres-label {
+        order: 5;
+    }
+
+    .flex-tabs #tab-cuatro-label {
+        order: 7;
+    }
+
+    .flex-tabs #tab-uno-panel {
+        order: 2;
+    }
+
+    .flex-tabs #tab-dos-panel {
+        order: 4;
+    }
+
+    .flex-tabs #tab-tres-panel {
+        order: 6;
+    }
+
+    .flex-tabs #tab-cuatro-panel {
+        order: 8;
+    }
+
+    #tab-uno:checked~.tabs #tab-uno-label,
+    #tab-dos:checked~.tabs #tab-dos-label,
+    #tab-tres:checked~.tabs #tab-tres-label,
+    #tab-cuatro:checked~.tabs #tab-cuatro-label {
+        border-bottom: none;
+    }
+
+    #tab-uno:checked~.tabs #tab-uno-panel,
+    #tab-dos:checked~.tabs #tab-dos-panel,
+    #tab-tres:checked~.tabs #tab-tres-panel,
+    #tab-cuatro:checked~.tabs #tab-cuatro-panel {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .responsive-tabs .tab {
+        text-align: justify;
+    }
+}
