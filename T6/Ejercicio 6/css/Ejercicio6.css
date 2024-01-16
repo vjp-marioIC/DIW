@@ -9,6 +9,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.container {
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+
 /*##########################################################*/
 /*HEADER*/
 header {
@@ -36,24 +43,103 @@ header img {
 /*ASIDE*/
 aside {
     background-color: white;
-    width: 200px;
-    height: 80vh;
+    width: 20%;
+    text-align: center;
+    border: 2px solid #4169e2;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 aside img {
     width: 200px;
+    margin: 20px;
 }
 
-.container {
-    width: 100%;
+
+/*UNO*/
+/*#######################################################*/
+#tab-uno-panel {
+    padding: 50px;
+    border: 2px 2px 2px 0 solid #4169e2;
+}
+
+#tab-uno-panel img {
+    width: 80%;
+}
+
+
+/*DOS*/
+/*###############################################*/
+#tab-dos-panel {
+    padding: 50px;
+    border: 2px 0 2px 2px solid #4169e2;
+}
+
+#tab-dos-panel img {
+    width: 80%;
+}
+
+/*TRES*/
+/*###############################################*/
+#tab-tres-panel {
+    padding: 50px;
+    border: 2px 2px 2px 0 solid #4169e2;
+}
+
+#tab-tres-panel img {
+    width: 80%;
+}
+
+/*CUTRO*/
+/*###############################################*/
+#tab-cuatro-panel {
+    padding: 50px;
+    border: 2px 2px 2px 0 solid #4169e2;
+}
+
+#tab-cutro-panel img {
+    width: 80%;
+}
+
+/*CINCO*/
+/*###############################################*/
+#tab-cinco-panel {
+    padding: 50px;
+    border: 2px 2px 2px 0 solid #4169e2;
+}
+
+#tab-cinco-panel img {
+    width: 80%;
+}
+
+/*##########################################################*/
+/*FOOTER*/
+footer {
+    color: white;
+    background-color: #4169e2;
+    width: 90%;
+    height: 5vh;
+    margin: auto;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
 }
 
 /*##########################################################*/
 .responsive-tabs {
     margin: 20px auto;
     margin-top: 0px;
-    width: 90%;
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .responsive-tabs .estado {
@@ -61,9 +147,9 @@ aside img {
 }
 
 .responsive-tabs .flex-tabs {
-    display: flex;                      /* Flex Tabs */
-    justify-content: space-between;     /* Espacio entre ellos */
-    flex-wrap: wrap;                    /* Wrap por si no caben */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     border-top: 10px solid #FFD0C1;
 }
 
@@ -99,19 +185,12 @@ aside img {
     color:crimson;
 }
 
-#tab-uno-panel {
-    padding: 50px;
-}
-
-#tab-uno-panel img {
-    width: 80%;
-}
-
 /* Al seleccionarlo cambiamos estilo del label */
 #tab-uno:checked~.tabs #tab-uno-label,
 #tab-dos:checked~.tabs #tab-dos-label,
 #tab-tres:checked~.tabs #tab-tres-label,
-#tab-cuatro:checked~.tabs #tab-cuatro-label {
+#tab-cuatro:checked~.tabs #tab-cuatro-label,
+#tab-cinco:checked~.tabs #tab-cinco-label {
     background-color: #fff;
     cursor: default;
     font-weight: bold;
@@ -124,27 +203,9 @@ aside img {
 #tab-uno:checked~.tabs #tab-uno-panel,
 #tab-dos:checked~.tabs #tab-dos-panel,
 #tab-tres:checked~.tabs #tab-tres-panel,
-#tab-cuatro:checked~.tabs #tab-cuatro-panel {
+#tab-cuatro:checked~.tabs #tab-cuatro-panel,
+#tab-cinco:checked~.tabs #tab-cinco-panel {
     display: block;
-}
-
-/*##########################################################*/
-/*FOOTER*/
-footer {
-    color: white;
-    background-color: #4169e2;
-    width: 90%;
-    height: 5vh;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.logos {
-    display: flex;
-    gap: 20px;
-    font-size: 20px;
 }
 
 /* Configuración de vista Responsive */
