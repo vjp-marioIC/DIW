@@ -65,8 +65,9 @@ aside img {
 
 #tab-uno-panel img {
     width: 80%;
+    display: block;
+    margin: auto;
 }
-
 
 /*DOS*/
 /*###############################################*/
@@ -76,7 +77,9 @@ aside img {
 }
 
 #tab-dos-panel img {
-    width: 80%;
+    width: 90%;
+    display: block;
+    margin: auto;
 }
 
 /*TRES*/
@@ -88,6 +91,8 @@ aside img {
 
 #tab-tres-panel img {
     width: 80%;
+    display: block;
+    margin: auto;
 }
 
 /*CUTRO*/
@@ -97,8 +102,10 @@ aside img {
     border: 2px 2px 2px 0 solid #4169e2;
 }
 
-#tab-cutro-panel img {
+#tab-cutro-panel iframe {
     width: 80%;
+    display: block;
+    margin: auto;
 }
 
 /*CINCO*/
@@ -110,6 +117,8 @@ aside img {
 
 #tab-cinco-panel img {
     width: 80%;
+    display: block;
+    margin: auto;
 }
 
 /*##########################################################*/
@@ -136,7 +145,6 @@ footer {
     margin: 20px auto;
     margin-top: 0px;
     width: 80%;
-    height: 100%;
 
     display: flex;
     flex-direction: column;
@@ -211,8 +219,16 @@ footer {
 /* Configuración de vista Responsive */
 @media (max-width: 600px) {
 
+    header {
+        width: 80%;
+    }
+
     header h1 {
         font-size: 1.5em;
+    }
+
+    header img {
+        display: none;
     }
 
     .flex-tabs {
@@ -226,6 +242,20 @@ footer {
 
     .flex-tabs .tab:last-of-type {
         border-bottom: none;
+    }
+
+    .container {
+        width: 100%;
+        margin-bottom: -20px;
+    }
+
+    aside {
+        display: none;
+        margin-bottom: 0;
+    }
+
+    .responsive-tabs .flex-tabs {
+        border-top: none;
     }
 
     /* Asociamos cada etiqueta a cada panel para que se muestre forma correcta */
@@ -245,6 +275,11 @@ footer {
         order: 7;
     }
 
+    .flex-tabs #tab-cinco-label {
+        order: 9;
+    }
+
+
     .flex-tabs #tab-uno-panel {
         order: 2;
     }
@@ -261,21 +296,37 @@ footer {
         order: 8;
     }
 
+    .flex-tabs #tab-cinco-panel {
+        order: 10;
+    }
+
+    #tab-cutro-panel iframe {
+        width: 20%;
+        display: block;
+        margin: auto;
+    }
+
     #tab-uno:checked~.tabs #tab-uno-label,
     #tab-dos:checked~.tabs #tab-dos-label,
     #tab-tres:checked~.tabs #tab-tres-label,
-    #tab-cuatro:checked~.tabs #tab-cuatro-label {
+    #tab-cuatro:checked~.tabs #tab-cuatro-label,
+    #tab-cinco:checked~.tabs #tab-cinco-label {
         border-bottom: none;
     }
 
     #tab-uno:checked~.tabs #tab-uno-panel,
     #tab-dos:checked~.tabs #tab-dos-panel,
     #tab-tres:checked~.tabs #tab-tres-panel,
-    #tab-cuatro:checked~.tabs #tab-cuatro-panel {
+    #tab-cuatro:checked~.tabs #tab-cuatro-panel,
+    #tab-cinco:checked~.tabs #tab-cinco-panel {
         border-bottom: 1px solid #ccc;
     }
 
     .responsive-tabs .tab {
         text-align: justify;
+    }
+
+    footer {
+        width: 80%;
     }
 }
