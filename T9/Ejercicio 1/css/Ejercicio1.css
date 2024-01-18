@@ -1,0 +1,34 @@
+.color-header-footer {
+    background-color: #90ee90;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.color-uno-dos-tres-cuatro {
+    background-color: #da70d5;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.color-a-b-c-d {
+    background-color: #fea500;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.color-desktop {
+    background-color: #ffb6c1;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.color-caras {
+    background-color: #aeeeee;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
