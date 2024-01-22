@@ -1,14 +1,15 @@
-.color-header-footer {
-    background-color: black;
-    padding: 10px;
+.cabecera {
+    height: 20vh;
 }
 
-.color-aside-nav {
-    background-color: #dbdee5;
-    padding: 10px;
+.menu {
+    height: 30vh;
 }
 
-.color-main {
-    background-color: #b5bac0;
-    padding: 10px;
+.otros {
+    height: 40vh;
+}
+
+.footer {
+    height: 10vh;
 }
