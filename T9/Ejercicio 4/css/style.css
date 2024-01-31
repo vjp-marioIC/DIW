@@ -1,0 +1,16 @@
+body {
+    background-color: #dcdcdc;
+}
+
+.card-group .card i {
+    font-size: 100px;
+    background-color: #353a40;
+    padding: 50px;
+    border-radius: 50%;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
