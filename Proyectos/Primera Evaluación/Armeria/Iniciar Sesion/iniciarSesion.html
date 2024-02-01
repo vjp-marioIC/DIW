@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inicio de Sesión</title>
+</head>
+
+<body>
+    <!--CABECERA-->
+    <header>
+        <!--LOGO-->
+        <a href="../Principal/principal.html"><img src="img/logo.png" alt="Logo de Armeria el Lance"></a>
+        
+        <div class="logo">
+            <h1>Armeria el Lance</h1>
+        </div>
+
+        <!--#################################################################################################################-->
+        <!--BARRA DE BÚSQUEDA-->
+        <div class="barraBusqueda">
+           <input type="text" placeholder="Buscar">
+            <a href="#">
+                <i class="fas fa-search" style="color: #8a8a8a;"></i>
+            </a>
+        </div>
+
+        <!--#################################################################################################################-->
+        <!--PESTAÑAS-->
+        <div class="pestañas">
+            <div class="cuenta">
+                <a href="../Cuenta/cuenta.html">
+                    <i class="far fa-user" style="color: #ffffff;"></i>
+                    <p>Cuenta</p>
+                </a>
+            </div>
+
+            <div class="carrito">
+                <a href="../Carrito/carrito.html">
+                    <i class="fas fa-shopping-cart" style="color: #ffffff;"></i>
+                    <p>Carrito</p>
+                </a>
+            </div>
+        </div>
+
+        <!--#################################################################################################################-->
+        <!--MENÚ-->
+        <div class="menu">
+            <button class="boton-desplegable">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="enlaces">
+                <li><a href="../Armas/armas.html">ARMAS</a></li>
+                <li><a href="../Accesorios/accesorios.html">ACCESORIOS</a></li>
+                <li><a href="../Optica/optica.html">ÓPTICAS</a></li>
+                <li><a href="../Textil y Calzado/textilCalzado.html">TEXTIL Y CALZADO</a></li>
+                <li><a href="../Contacto/contacto.html">CONTACTO</a></li>
+            </ul>
+
+            <p>Menú</p>
+        </div>
+    </header>
+
+    <main>
+        <h1>Crea su cuenta</h1>
+
+        <!--#################################################################################################################-->
+        <!--FORMULARIO PARA CREAR CUENTA-->
+        <div class="formulario">
+            <form action="cuenta.html" method="post">
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombreForm" id="nombre">
+           
+                <br>
+                <br>
+
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" name="apellidosForm" id="apellidos">
+           
+                <br>
+                <br>
+
+                <label for="correo" class="coreoElectronico">Dirección de correo </label>
+                <input type="text" name="correoForm" id="correo">
+                <br>
+                <label id="correoElectronico">elctrónico:</label>
+
+                <br>
+                <br>
+
+                <label for="password">Contraseña: </label>
+                <input type="password" name="passwordForm" id="password">
+           
+                <br>
+                <br>
+
+                <label for="confirmarPassword">Confirmar contraseña: </label>
+                <input type="password" name="confirmarPasswordForm" id="confirmarPassword">
+           
+                <br>
+                <br>
+
+                <input type="checkbox" name="checkboxForm" id="checkbox">
+                <label for="checkbox" class="checkbox">Acepto las condiciones generales y la política de confidencialidad</label>
+
+                <input type="button" name="boton" value="CREAR CUENTA" id="crearCuenta">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
