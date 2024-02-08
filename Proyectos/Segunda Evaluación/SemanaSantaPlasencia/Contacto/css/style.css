@@ -9,3 +9,8 @@
 .fondoApartadoDerecho {
     background-color: rgb(207, 204, 204);
 }
+
+.dropdown-menu li a:hover {
+    background-color: black;
+    font-size: 1.2em;
+}

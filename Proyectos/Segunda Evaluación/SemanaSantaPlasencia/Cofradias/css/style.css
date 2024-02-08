@@ -13,3 +13,8 @@
 .fondoLogo {
     background-color: #7030a0;
 }
+
+.dropdown-menu li a:hover {
+    background-color: black;
+    font-size: 1.2em;
+}
